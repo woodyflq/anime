@@ -9,7 +9,7 @@ function onClickEvent(event) {
 
     let cidade = formInputCity.value
 
-    let url = `https://api.jikan.moe/v3/anime/${cidade}`
+    let url = `https://api.jikan.moe/v4/anime/${cidade}`
 
     fetch(url)
         .then(function(response){
